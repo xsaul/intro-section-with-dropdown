@@ -1,0 +1,38 @@
+.mobile-hero {
+  display: none;
+}
+
+@media (max-width: 425px) {
+  .mobile {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .mobile-hero {
+    display: block;
+    width: 100%;
+  }
+
+  .desktop-hero {
+    display: none;
+  }
+
+  .heading {
+    width: 100% !important;
+    margin-left: 2.2rem !important;
+    font-size: 2rem !important;
+  }
+
+  .paragraph {
+    margin-left: 2rem !important;
+    width: 85% !important;
+  }
+
+  .buttonLearnMore {
+    margin-left: 7rem !important;
+  }
+
+  .logos {
+    width: 25%;
+  }
+}
